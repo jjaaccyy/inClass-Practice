@@ -1,12 +1,12 @@
 "0","library(googlesheets)"
 "0","gs_auth(new_user = TRUE)"
-"2","No token currently in force.
+"2","Disabling .httr-oauth by renaming to .httr-oauth-SUSPENDED
 "
-"2","Adding .httr-oauth to .gitignore
+"2","Removing google token stashed internally in 'googlesheets'.
 "
 "2","httpuv not installed, defaulting to out-of-band authentication
 "
-"0","4/ewCvOoLslux5Ee2PaRG2hdtmkYIUlzzv-8zoDrMUNEDXccAypna9Hi8"
+"0","4/ewCJJPL7h2pPVl1zcrwefck6rMzyHKZOduEKlXgiG96t5KmRGUvfzDU"
 "0","gsSurvey<-gs_key(""1mC9bnxj11NCNoOCw0Vmn4nxERbHtLjeGo9v9C9b2GDE"")  #download sheet information as an object"
 "2","Error in gs_lookup(., ""sheet_key"", verbose) : 
   ""1mC9bnxj11NCNoOCw0Vmn4nxERbHtLjeGo9v9C9b2GDE"" doesn't match sheet_key of any sheet returned by gs_ls() (which should reflect user's Google Sheets home screen).
