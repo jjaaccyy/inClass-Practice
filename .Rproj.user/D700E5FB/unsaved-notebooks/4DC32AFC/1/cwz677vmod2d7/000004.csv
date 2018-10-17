@@ -1,0 +1,11 @@
+"0","a<-c(""A, B"" ,""B, C"")"
+"0","a"
+"1","[1]"
+"1"," ""A, B"""
+"1"," ""B, C"""
+"1","
+"
+"0","str_split_fixed(a,"", "", n=3)->b"
+"2","Error in str_split_fixed(a, "", "", n = 3) : 
+  could not find function ""str_split_fixed""
+"
