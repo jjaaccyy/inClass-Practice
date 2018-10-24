@@ -1,0 +1,9 @@
+"0","""90-01"""
+"1","[1]"
+"1"," ""90-01"""
+"1","
+"
+"0"," seq(as.Date('90-01'), to = as.Date('107-08'), by='1991 years')"
+"2","Error in charToDate(x) : 
+  character string is not in a standard unambiguous format
+"
