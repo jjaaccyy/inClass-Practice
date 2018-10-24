@@ -31,6 +31,17 @@ a<-c(T,T,F,F,T,F,F)
 sum(a)
 ```
 
+```{r}
+(StuDF$score >= 80)
+(StuDF$name == "小新")
+
+```
+```{r}
+StuDF[which(StuDF$score >= 80),2]
+StuDF[which(StuDF$name == "小新"),3]
+```
+
+
 
 ```{r}
 StuDF <- data.frame(
