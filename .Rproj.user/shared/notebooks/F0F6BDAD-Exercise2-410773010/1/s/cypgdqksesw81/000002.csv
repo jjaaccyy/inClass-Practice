@@ -1,0 +1,5 @@
+"0","library(readr)"
+"0","iPeenData <- read_csv(""https://raw.githubusercontent.com/tpemartin/course-107-1-programming-for-data-science/master/data/iPeenData.csv"")"
+"2","Error in open.connection(con, ""rb"") : 
+  Could not resolve host: raw.githubusercontent.com
+"
