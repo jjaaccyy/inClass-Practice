@@ -9,6 +9,14 @@ library(googlesheets)
 ```
 
 ## Import Google
+```{r}
+library(readr)
+student <- read_csv("https://raw.githubusercontent.com/tpemartin/course-107-1-programming-for-data-science/master/data/student.csv")
+library(dplyr)
+library(magrittr)
+student %<>% mutate(
+  身高級距=cut(身高,c(0,150,155,160,165,170,175,180,185,200)))
+```
 
 ```{r}
 gs_auth(new_user = TRUE)
