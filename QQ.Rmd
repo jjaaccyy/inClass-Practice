@@ -11,6 +11,10 @@ student %<>% mutate(
   身高級距=cut(身高,c(0,150,155,160,165,170,175,180,185,200)))
 ```
 
+```{r}
+
+```
+
 This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
 
 Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
